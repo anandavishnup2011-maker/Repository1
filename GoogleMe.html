@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleDupe</title>
+        <style>
+            .Container {
+                display:flex;
+                height:100vh;
+                justify-content: center;
+                align-items:center;
+                flex-direction: column;
+                
+            }
+            .logo {
+                font-size:105px;
+                font-family: Arial , sans-serif;
+                letter-spacing:-12px;
+                margin-top:-60px;
+                margin-left:-10px ;
+            }
+            .search-box {
+                width:400px;
+                height:40px;
+                border: 1px solid #dfe1e5;
+                border-radius: 24px;
+                padding: 0 20px;
+                font-size:16px;
+                
+            }
+            .button { width:80px;
+            height:35px;
+            border-radius:4px;
+            border:1px solid black;
+            margin-top:30px;
+            margin-left:-100px;
+            }
+            .button2 {width:80px;
+            height:35px;
+            border-radius:4px;
+            border:1px solid black;
+            margin-left:100px;
+           
+        }
+        .link2 { margin-top:-36px;}
+        .search-wrapper {position:relative;}
+        .search-icon { position: absolute;
+         right:15px;
+         top:50%;
+         width:20px;
+         height:20px;
+        transform:translateY(-50%)}
+        .mic-icon { position:absolute;
+        right:45px;
+         width:20px;
+        height:20px;
+        top:50%;
+        transform:translateY(-50%);
+     }
+     .Profile {width: 40px;
+      height: 40px;
+      position: absolute;
+      top:10px;
+      right:20px;
+    
+    }     
+    .image-button { border:none;
+    background-color:#FFFF;
+    position: absolute;
+    top:20px;
+    right:70px;
+    font-weight: bold;
+    padding-right: 30px;
+    }
+    .gmail { border:none;
+    background-color:#FFFF;
+    position: absolute;
+    top:20px;
+    right:150px;
+    font-weight: bold;
+    padding-right: 30px;}
+    
+         
+            
+        </style>
+</head>
+<body>
+    <div class="Container">
+        <h1 class="logo">
+            <span style="color: rgb(13, 165, 196);">G</span>
+            <span style="color: rgb(196, 13, 13);">o</span>
+            <span style="color: rgb(241, 195, 29);">o</span>
+            <span style="color: rgb(13, 165, 196);">g</span>
+            <span style="color: rgb(10, 118, 37);">l</span>
+            <span style="color: rgb(196, 13, 13);">e</span>
+            
+        </h1>
+    <div class="search-wrapper">
+        <input type=text; class="search-box" placeholder="Search";>
+        <svg class="search-icon" viewBox="0 0 24 24 " fill="none" stroke="gray" stroke-width="2">
+     <circle cx="11" cy="11" r="8"></circle>
+     <line x1="21"  y1="21" x2="16.65" y2="16.65"></line>  
+    </svg>
+    <img  class=mic-icon alt="microphone" src="microphone.png">
+    </div>
+    <a href="https://www.google.com/" target="_blank">
+        <button class="button" >Google Search</button>
+        </a>
+    <a href="https://doodles.google/" target="_blank" class="link2">
+        <button class="button2">I'm Feeling Lucky</button>
+    </a>
+    <img class="Profile" src="profile-circle-svgrepo-com.svg" alt="profile">
+     
+    
+    </div>
+    <a href="https://images.google.com/" target="_blank">
+   <button class="image-button"> Images</button>
+     </a>
+     <a href="https://myaccount.google.com/personal-info?pli=1" target="_blank">
+   <button class="gmail"> Gmail</button>
+     </a>
+</body>
+</html>
